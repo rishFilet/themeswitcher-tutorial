@@ -1,0 +1,29 @@
+@layer root {
+  :root {
+    --color-font: #303030;
+    --color-primary: #fff;
+    --color-secondary: #303030;
+    --color-accent: #2bb1a5;
+    --color-disabled: #9f9f9f;
+
+    [data-theme='dark'] {
+      --color-font: #fff;
+      --color-primary: #303030;
+      --color-secondary: #fff;
+    }
+  }
+
+  * {
+    transition: background-color 0.3s ease;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-font);
+  }
+}
