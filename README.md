@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fluid Theme Switcher 
+
+## 🌓 Background
+
+Modern web users expect both aesthetic control and seamless experiences. This theme switcher implementation addresses the challenge of creating personalized UI preferences while maintaining fluid interaction. Built with TypeScript, React, and modern CSS, the solution goes beyond basic light/dark toggles by implementing:
+
+- Smooth transitional animations
+- System preference detection
+- Persistent user settings
+- CSS Custom Properties strategy
+- Type-safe theme configuration
+
+## 🎯 Summary
+
+This implementation demonstrates:
+
+**Key Features:**
+- 🎨 Multiple theme states (light/dark/system-aware)
+- 🌗 Smooth CSS transitions between themes
+- 🤖 Automatic system preference detection
+- 💾 Local storage persistence
+- 🚀 Next.js-optimized implementation
+
+**Tech Stack:**
+- React + Next.js App Router
+- CSS Variables and modules
+- TypeScript type-safe themes
+- CSS Transition animations
+- Local storage API
+
+## 📖 Deep Dive Blog Post
+
+For detailed implementation insights and design decisions, read the companion blog post:  
+[**"Making a Theme Switcher - Because Even a Theme Can Be Fluid (Part 1)"**](https://rk-portfolio-2025.netlify.app/blog/making-a-theme-switcher-because-even-a-theme-can-be-fluid-part-1)
+
+---
 
 ## Getting Started
 
@@ -16,21 +51,3 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
